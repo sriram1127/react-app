@@ -1,0 +1,43 @@
+{
+  "name": "test-app",
+  "version": "1.0.0",
+  "description": "react,express,nodejs,postgresql,sequelize",
+  "main": "index.js",
+  "scripts": {
+    "build": "node_modules/.bin/webpack --watch --colors",
+    "start": "webpack-dev-server --inline --hot"
+  },
+  "dependencies": {
+    "axios": "*",
+    "body-parser": "*",
+    "cors": "*",
+    "express": "*",
+    "fixed-data-table": "*",
+    "lodash": "*",
+    "react": "*",
+    "react-dom": "*",
+    "react-redux": "*",
+    "react-router": "*",
+    "react-router-dom": "*",
+    "react-select": "*",
+    "redux": "*",
+    "redux-logger": "*",
+    "redux-promise-middleware": "*",
+    "sequelize": "*",
+    "morgan": "*",
+    "cookie-parser": "*",
+    "pg": "*"
+  },
+  "devDependencies": {
+    "babel-core": "*",
+    "babel-loader": "*",
+    "babel-preset-es2015": "*",
+    "babel-preset-react": "*",
+    "babel-preset-stage-0": "*",
+    "uglifyjs-webpack-plugin": "^1.0.0-beta.3",
+    "webpack": "3.0.0",
+    "webpack-dev-server": "^2.9.1"
+  },
+  "author": "sriram subramanian",
+  "license": "ISC"
+}
